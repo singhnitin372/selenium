@@ -1,5 +1,0 @@
-2017-03-16 14:42:49.284 [main] INFO  com.mindtree.BaseClass.BaseClass - Able to Start the Chrome Browser 
-2017-03-16 14:42:53.274 [main] INFO  com.mindtree.BaseClass.BaseClass - User is able to Login into the URL
-2017-03-16 14:42:54.042 [main] INFO  com.mindtree.BaseClass.BaseClass - User is able to enter the Username  and Password 
-2017-03-16 14:42:54.042 [main] INFO  com.mindtree.BaseClass.BaseClass - Able to Login into the Web Applications 
-2017-03-16 14:43:03.154 [main] INFO  com.mindtree.BaseClass.BaseClass - Able to Navigate to the Home Page
