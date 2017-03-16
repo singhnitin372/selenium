@@ -1,8 +1,8 @@
 package com.selenium.steps;
 
-import com.selenium.com.mindtree.utility.Waits;
 import com.selenium.page.HomePage;
 import com.selenium.page.LoginPage;
+import com.selenium.utility.Waits;
 
 /**
  * Created by M1028219 on 3/15/2017.

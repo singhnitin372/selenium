@@ -1,26 +1,27 @@
 package com.selenium.page;
 
-import com.selenium.com.mindtree.utility.PropertyReader;
+import com.selenium.utility.PropertyReader;
 import org.openqa.selenium.By;
 
 /**
- * Created by M1028219 on 3/15/2017.
+ * @Login Page
+ *
  */
 public class LoginPage {
 
     public static By enterUsername(){
 
-        By by = (By.xpath(PropertyReader.propertyReader().getProperty("username")));
-        return by ;
+        return (By.xpath(PropertyReader.propertyReader().getProperty("username")));
+
     }
 
     public static By enterPassword( ){
-        By by = (By.xpath(PropertyReader.propertyReader().getProperty("password")));
-        return by ;
+        return (By.xpath(PropertyReader.propertyReader().getProperty("password")));
+
     }
 
     public static By clicksignIn() {
-        By by = By.xpath(PropertyReader.propertyReader().getProperty("signIn"));
-        return by;
+        return By.xpath(PropertyReader.propertyReader().getProperty("signIn"));
+
     }
 }

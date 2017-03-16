@@ -1,8 +1,8 @@
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.selenium.BaseClass.BaseClass;
-import com.selenium.com.mindtree.utility.PropertyReader;
 import com.selenium.steps.Steps;
+import com.selenium.utility.PropertyReader;
 import org.testng.annotations.Test;
 
 /**
@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass {
 
 
     @Test
-    public static void LoginTest(){
+    public static void loginTests() {
         ExtentTest test = extentReporter.createTest("Login Test");
         driver.get(PropertyReader.propertyReader().getProperty("url"));
         test.log(Status.INFO, "User is able to Login into the URL");

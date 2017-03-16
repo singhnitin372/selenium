@@ -1,6 +1,6 @@
 package com.selenium.page;
 
-import com.selenium.com.mindtree.utility.PropertyReader;
+import com.selenium.utility.PropertyReader;
 import org.openqa.selenium.By;
 
 /**
@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 public class HomePage {
 
     public static By createClassLink (){
-        By element = By.ByXPath.xpath(PropertyReader.propertyReader().getProperty("createClassLink"));
-        return  element ;
+        return By.ByXPath.xpath(PropertyReader.propertyReader().getProperty("createClassLink"));
+
     }
 }
